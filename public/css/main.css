@@ -1,0 +1,162 @@
+.wrapper {
+  height: 100%;
+}
+
+.mainTemplate {
+  margin-left: 15.5rem;
+}
+
+/*************메인 사이드바 관련 css************/
+.mainSidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 15.5rem;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  box-shadow: -6px 0 12px 0 #d6dee4;
+}
+
+.mainSidebar .logo {
+  padding: 1.75rem 2rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: Inconsolata;
+  color: #212529;
+  display: block;
+  position: relative;
+}
+
+.mainSidebar .logo .badge {
+  color: #fa5252;
+  font-style: italic;
+  font-size: .975rem;
+  padding: .25rem;
+  position: absolute;
+  line-height: .875rem;
+  font-weight: 700;
+  top: 1.75rem;
+  left: 9rem;
+}
+
+.mainSidebar .menu {
+  margin-top: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.mainSidebar .menu .menuItem {
+  cursor: pointer;
+  color: #495057;
+}
+
+.mainSidebar .menu .active {
+  color: #845ef7;
+  border-right: 2px solid #9775fa;
+}
+
+.mainSidebar .menu .menuItem:hover {
+  background-color: #f1f3f5;
+}
+
+.mainSidebar .menu .menuItem a {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1.25rem;
+  padding-left: 1.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.mainSidebar .menu .menuItem a .text {
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+/*************메인 헤더바 관련 css************/
+
+.mainHead {
+  padding: 2.5rem 1.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.mainHead .spacer {
+  flex: 1 1;
+}
+
+.mainHead .right-area {
+  display: flex;
+  align-items: center;
+}
+
+/*************유저 메뉴바 관련 css************/
+.userButton img {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0,0,0,.016), 0 3px 6px rgba(0,0,0,.023);
+  transition: all .15s ease-in;
+  cursor: pointer;
+}
+
+.user-menu-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+.user-menu-wrapper .user-menu-positioner {
+  position: absolute;
+  right: 0;
+  top: 0.75rem;
+}
+
+.user-menu-wrapper .user-menu-positioner .rotated-square {
+  z-index: 0;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background: #adb5bd;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  right: 16px;
+  z-index: 0;
+  top: -8px;
+}
+
+.user-menu-wrapper .user-menu-positioner .user-menu {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  z-index: 1;
+  position: relative;
+  font-size: 0.875rem;
+  background: white;
+  min-width: 10rem;
+  border: 1px solid #adb5bd;
+}
+
+.user-menu-wrapper .user-menu-positioner .user-menu .menu-items .separator {
+  width: 100%;
+  height: 1px;
+  background: #e9ecef;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.user-menu-item {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #495057;
+  display: block;
+}
+
+.user-menu-item:hover {
+  color: #7950f2;
+}

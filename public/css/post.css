@@ -1,0 +1,149 @@
+html, body {
+  background-color: #fff;
+}
+
+.postTamplate {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+
+.postTamplate .headerMenu {
+  height: 7rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.postTamplate .headerMenu .logo {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #212529;
+}
+
+.postTamplate .headerMenu .right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.postTamplate .postSection {
+  margin: 0 auto;
+  width: 768px;
+  position: relative;
+}
+
+.postTamplate .postSection .postHead {
+  margin-top: 4rem;
+  font-size: 1rem;
+}
+
+.postTamplate .postSection .postHead .userInfo {
+  display: flex;
+  margin-top: 1em;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.postTamplate .postSection .postHead .userInfo .user-thumbnail {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 4em;
+  height: 4em;
+  position: relative;
+}
+
+.postTamplate .postSection .postHead .userInfo .user-thumbnail img{
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.postTamplate .postSection .postHead .userInfo .info{
+  margin-left: 1em;
+  font-size: .875em;
+  line-height: 1.5em;
+}
+
+.postTamplate .postSection .postHead .userInfo .info .username {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #212529;
+}
+
+.postTamplate .postSection .postHead .userInfo .info .description {
+  word-break: break-word;
+  color: #868e96;
+}
+
+.postTamplate .postSection .postHead .date-and-likes {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.postTamplate .postSection .postHead .date-and-likes .date{
+  font-size: 1.125em;
+  color: #868e96;
+}
+.postTamplate .postSection .postHead .date-and-likes .placeholder {
+  flex: 1 1;
+}
+.postTamplate .postSection .postHead .date-and-likes .PostLikeButton {
+  cursor: pointer;
+  padding: .5rem .875rem;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  border: 1px solid #845ef7;
+  color: #845ef7;
+  border-radius: 1.0625rem;
+}
+
+.postTamplate .postSection .postHead .separator {
+  width: 100%;
+  height: 1px;
+  background: #e7edf3;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.postTamplate .postSection .postHead .postAction {
+  margin-right: -.4rem;
+  margin-top: -2rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.postTamplate .postSection .postHead .postAction .btn{
+  font-size: .875rem;
+  color: #868e96;
+  font-weight: 500;
+  padding: .125rem .5rem;
+  cursor: pointer;
+}
+
+.postTamplate .tagSection {
+  margin: -.375rem;
+  margin-top: 5rem;
+  background-color: #845ef7;
+  
+}
+
+.postTamplate .commentSection {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-color: aquamarine;
+}

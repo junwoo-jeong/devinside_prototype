@@ -1,0 +1,48 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.write_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.write_form .title_section{
+  display: flex;
+  min-height: 4rem;
+  height: 4rem;
+  background: #343a40;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
+  align-items: center;
+}
+.write_form .title_section a{
+  margin-right: 1rem;
+}
+.write_form .title_section .title {
+  -ms-flex: 1 1;
+  flex: 1 1;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: -ms-flexbox;
+  display: flex;
+}
+.write_form .title_section .title input{
+  flex: 1 1;
+  background: none;
+  outline: 0;
+  border: none;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.write_form #editSection {
+  width: 100%;
+  flex: 1;
+}

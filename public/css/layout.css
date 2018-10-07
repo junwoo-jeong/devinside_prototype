@@ -1,0 +1,48 @@
+@font-face {
+  font-family: NanumSquareWeb;
+  src: local(NanumSquareR),
+       local(NanumSquare),
+       url(NanumSquareR.eot?#iefix) format('embedded-opentype'),
+       url(NanumSquareR.woff) format('woff'),
+       url(NanumSquareR.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+* {font-family:'Nanum Gothic';}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: rgb(241, 243, 245);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+  text-align: inherit; 
+}
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0; 
+}

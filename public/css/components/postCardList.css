@@ -1,0 +1,30 @@
+.PostCardList {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: -0.875rem;
+  margin-right: -0.875rem;
+}
+
+.PostCardList .empty-list {
+  width: 100%;
+  text-align: center;
+  padding-top: 8rem;
+  color: #ced4da;
+  font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+  .PostCardList .empty-list {
+    padding-top: 4rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .PostCardList {
+    margin-top: 0.5rem;
+  }
+}

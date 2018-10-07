@@ -1,0 +1,12 @@
+.TrendingTemplate {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+@media (max-width: 1023px) {
+  .TrendingTemplate {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    overflow-x: hidden;
+  }
+}
