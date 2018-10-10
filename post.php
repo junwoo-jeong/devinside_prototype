@@ -2,7 +2,7 @@
   * post page
   * @Author Jeong Junwoo
   구현 기능
-  1. 스마트 마크다운 에디터 뷰어 적용(toast ui editor)
+  1. 스마트 마크다운 에디터(toast ui editor)
   2. 글을 작성한 user가 접근시 수정, 삭제 버튼 동적으로 생성
   3. 방문기록을 바탕으로 조회수 증가(여러번 증가 방지)
 -->
